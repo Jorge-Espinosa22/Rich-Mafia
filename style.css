@@ -61,3 +61,8 @@ span{
     height: 250px;
     width: 250px;
 }
+
+a{
+    color: #FF595A;
+    font-size: 12px;
+}
