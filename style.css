@@ -1,0 +1,63 @@
+
+/*Selector universal*/
+*{
+    background-color: #0C1A1A;
+}
+
+/*Selectores de tipo etiqueta*/
+
+h1,
+h2,
+h3{
+    color:#FF595A;
+    text-align: center;
+    font-family: serif;
+    font-size: 40px;
+}
+
+p,
+li{
+    color: #CAC0B3;
+    font-size: 20px;
+}
+
+span{
+    color: #CAC0B3;
+    font-size: 20px;
+}
+
+/*Selector de clase,se pueden compartir */
+
+.tops {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #FF595A;
+    font-size: 30px;
+}
+
+.datos{
+    color: #CAC0B3;
+    font-size: 17px;
+}
+
+.canciones{
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+}
+
+.dato-importante{
+    color: #178582;
+    font-size: 25px;
+}
+/*Selector de id, no se comparten*/
+
+#gerafoto{
+    height: 250px;
+    width: 250px;
+    text-align: center;
+}
+
+#alemanfoto{
+    height: 250px;
+    width: 250px;
+}
