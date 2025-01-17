@@ -6,33 +6,27 @@
 
 /*Selectores de tipo etiqueta*/
 
-h1,
-h2,
-h3{
+.titles{
     color: #FF595A;
     text-align: center;
-    font-size: 60px;  
+    font-size: 30px;  
     font-family: "Vollkorn", serif;
   font-optical-sizing: auto;
   font-style: italic; 
+  font-weight: 700;
 }
 
-p,
-li{
+p,li,span{
     color: #CAC0B3;
-    font-size: 20px;
-}
-
-span{
-    color: #CAC0B3;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 /*Selector de clase,se pueden compartir */
 
 .datos{
     color: #CAC0B3;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .canciones{
@@ -47,16 +41,6 @@ span{
 }
 /*Selector de id, no se comparten*/
 
-#gerafoto{
-    height: 250px;
-    width: 250px;
-    text-align: center;
-}
-
-#alemanfoto{
-    height: 250px;
-    width: 250px;
-}
 
 a{
     color: #FF595A;
@@ -74,4 +58,26 @@ p,li,span,.datos,.canciones{
     font-family: "Vollkorn", serif;
   font-style: italic;
   font-size: 35px;
+}
+
+.fotos {
+    display: flex;
+    margin-left: 550px;
+   height: 400px;
+   padding: 10px;
+   margin-right: 550px;
+
+}
+
+nav {
+ display: flex;
+ flex-direction: column;
+}
+
+.botones-albumes{
+    padding: 150px;
+        width: 150px;
+        height: 150px;
+        border: none;
+        background-image: url(Imagenes/Artistas\ Rich/RichMafia.png);
 }
