@@ -81,3 +81,23 @@ nav {
         border: none;
         background-image: url(Imagenes/Artistas\ Rich/RichMafia.png);
 }
+
+.link-chisme{
+    font-size: 30px;
+    font-weight: 600;
+    color: #FF595A;
+}
+
+.video-250k{
+    background-image: url(Imagenes/Artistas\ Rich/250k.png);
+    padding-top: 900px;
+    padding-right: 700px;
+    border: none;
+    margin-left: 350px;
+    margin-right: 350px;
+   
+}
+
+.informacion-chisme{
+    padding: 50px;
+}
