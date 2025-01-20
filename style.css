@@ -95,9 +95,19 @@ nav {
     border: none;
     margin-left: 350px;
     margin-right: 350px;
-   
 }
 
 .informacion-chisme{
     padding: 50px;
+}
+
+.botones{
+    color: #CAC0B3;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input{
+    color: #CAC0B3;
+    font-size: 17px;
 }

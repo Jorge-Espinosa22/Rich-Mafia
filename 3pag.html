@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Vollkorn:ital,wght@1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Crea tu cuenta</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="dato-importante">Crea tu cuenta!</h1>
+    </header>
+    <main>
+        <section class="datos">
+            <form action="">
+                <fieldset><!--Nos permite agrupar por campos-->
+                    <legend>Dstos basicos.</legend>
+                    Nombre(s): <input type="text" placeholder="Jorge Luis" required>
+                    Apellidos: <input type="text" placeholder="Espinosa Rendon" required>
+                    Teléfono: <input type="tel" name="" id="" placeholder="5563847539">
+                    Fecha de nacimiento: <input class="botones" type="date" name="" id="" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Creacion de cuenta</legend>
+                    Nombre de Usuario: <input type="text" placeholder="uSharif" required>
+                    Correo electrónico: <input type="email" placeholder="example@hotmail.com" required><br>
+                    Contraseña: <input type="password" placeholder="Hola1234" required><br>
+                    Confirme la contraseña: <input type="password" placeholder="Hola1234" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferencias.</legend><!--Atributo name para seleccionar una sola opcion-->
+
+                    <span>Selecciona tu Raper@ Favorito. <br>
+                    </span>
+                    <select class="botones" name="raperos" id="">
+                        <option value=""> Gera Mx</option>
+                        <option value=""> Aleman</option>
+                        <option value=""> Santa Fe Klan</option>
+                        <option value=""> Akapellah</option>
+                        <option value=""> Adan Cruz</option>
+                        <option value=""> Samantha Barron</option>
+                        <option value=""> Joss Bones</option>
+                        <option value="">Tino el Pingüino</option>
+                        <option value="">Faruz Feet</option>
+                        <option value="">Kinto Sol</option>
+                        <option value=""> MC Davo</option>
+                        <option value="">C-Kan</option>
+                        <option value=""> Cartel de Santa </option>
+                        <option value="">Sharif</option>
+                        <option value="">Aczino</option>
+                        <option value="">Control Machete</option>
+                        <option value="">Hispana</option>
+                        <option value="">Proof</option>
+                        <option value="">Villax</option>
+                        <option value="">Team Revolver</option>
+                        <option value="">Geasseasin</option>
+                        <option value="">Muelas de gallo</option>
+
+                    </select><br>
+
+                    <input class="botones" list="raperos">
+                    <datalist id="raperos">
+                        <option value="Gera Mx"></option>
+                        <option value="Aleman"></option>
+                        <option value="Santa Fe Klan"></option>
+                        <option value="Samantha Barron"></option>
+                        <option value="Adan Cruz"></option>
+                        <option value="Akapellah"></option>
+                        <option value="Joss Bones"></option>
+                        <option value="Tino el Pingüino">Tino el Pingüino</option>
+                        <option value="Faruz Feet">Faruz Feet</option>
+                        <option value="Kinto Sol">Kinto Sol</option>
+                        <option value="MC Davo"> MC Davo</option>
+                        <option value="C-Kan">C-Kan</option>
+                        <option value="Cartel de Santa"> Cartel de Santa </option>
+                        <option value="Sharif">Sharif</option>
+                        <option value="Aczino">Aczino</option>
+                        <option value="Control Machete">Control Machete</option>
+                        <option value="Hispana">Hispana</option>
+                        <option value="Proof">Proof</option>
+                        <option value="Villax">Villax</option>
+                        <option value="Team Revolver">Team Revolver</option>
+                        <option value="Geasseasin">Geasseasin</option>
+                        <option value="Muelas de gallo">Muelas de gallo</option>
+                        
+                    </datalist> 
+                    <br><br>
+                    <div>
+                        <span>Donde quieres recibir noticias importantes sobre tu rapero favorito. <br></span>
+                    <label class="botones" for="correo">
+                        <!-- El valor del atributo for en label, debe ser igual al valor del atributo id del input correspondiente -->
+                        <input type="radio" name="noticias" id="correo"> Por correo electronico.
+                    </label>
+                    <label class="botones" for="telefono">
+                        <input type="radio" name="noticias" id="telefono"> Por telefono.
+                    </label>
+                    <label class="botones"for="Ambos">
+                        <input type="radio" name="noticias" id="Ambos"> Por ambos.
+                    </label>
+                    <label class="botones" for="No-recibir">
+                        <input type="radio" name="noticias" id="No-recibir"> No quiero recibir noticias. </label><br><br>
+                        <label class="botones" for="aceptar"><input type="checkbox" name="" id="aceptar" required> Acepto Terminos y Condiciones.</label>
+                     <br>
+                    </div>
+                    
+
+                </fieldset>
+                <button class="botones" type="submit" required>Enviar ya </button>
+
+            </form>
+
+        </section>
+
+
+    </main>
+
+</body>
+
+</html>
